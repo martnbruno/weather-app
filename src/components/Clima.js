@@ -33,13 +33,13 @@ const Clima = ({ resultado }) => {
         </div>
 
         <p>
-          Temperatura Máxima: {" "}  
+          Temperatura Máx.: {" "}  
           {parseFloat(main.temp_max - kelvin, 10).toFixed(1)}
           <span> °C</span>
         </p>
         <p>
           {" "}
-          Temperatura Mínima: {" "}  
+          Temperatura Mín.: {" "}  
           {parseFloat(main.temp_min - kelvin, 10).toFixed(1)}
           <span> °C</span>
         </p>
