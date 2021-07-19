@@ -26,8 +26,8 @@ const Clima = ({ resultado }) => {
           </p>
           <img
             src={`https://openweathermap.org/img/w/${weather[0].icon}.png`}
-            width="150"
-            height="150px"
+            width="100px"
+            height="100px"
             alt=""
           />
         </div>
