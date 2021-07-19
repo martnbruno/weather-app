@@ -30,7 +30,6 @@ function App() {
         const respuesta = await fetch(url);
         const resultado = await respuesta.json();
         guardarResultado(resultado);
-        console.log(resultado)
         guardarConsultar(false);
         // detecta si hubo resultados correctos en la consulta
         if (resultado.cod === "404") {

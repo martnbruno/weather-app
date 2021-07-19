@@ -33,26 +33,23 @@ const Clima = ({ resultado }) => {
         </div>
 
         <p>
-          Temperatura Máx.: {" "}  
-          {parseFloat(main.temp_max - kelvin, 10).toFixed(1)}
+          Temperatura Máx.: {parseFloat(main.temp_max - kelvin, 10).toFixed(1)}
           <span> °C</span>
         </p>
         <p>
           {" "}
-          Temperatura Mín.: {" "}  
-          {parseFloat(main.temp_min - kelvin, 10).toFixed(1)}
+          Temperatura Mín.: {parseFloat(main.temp_min - kelvin, 10).toFixed(1)}
           <span> °C</span>
         </p>
         <p>
           {" "}
-          Sensación Térmica: {" "}  
+          Sensación Térmica:{" "}
           {parseFloat(main.feels_like - kelvin, 10).toFixed(1)}
           <span> °C</span>
         </p>
         <p>
           {" "}
-          Humedad: {" "}  
-          {parseFloat(main.humidity)}
+          Humedad: {parseFloat(main.humidity)}
           <span> %</span>
         </p>
       </div>

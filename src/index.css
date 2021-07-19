@@ -22,25 +22,22 @@ nav .brand-logo {
 }
 
 .input-field input[type="text"]:focus + label {
-  color: white;
+  color: #fff;
 }
 
 .input-field input[type="text"]:focus {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #fff;
   box-shadow: 0 1px 0 0 #000;
 }
 
 input[type="text"]:not(.browser-default) {
-  border-bottom: 1px solid white;
-  color: white;
+  border-bottom: 1px solid #fff;
+  color: #fff;
 }
 input[type="text"]:not(.browser-default):focus:not([readonly]) {
-  border-bottom: 1px solid white;
-  -webkit-box-shadow: 0 1px 0 0 white;
-  box-shadow: 0 1px 0 0 white;
-}
-input[type="text"]:not(.browser-default):focus:not([readonly]) + label {
-  color: white;
+  border-bottom: 1px solid #fff;
+  -webkit-box-shadow: 0 1px 0 0 #fff;
+  box-shadow: 0 1px 0 0 #fff;
 }
 
 .contenedor-form {
@@ -55,7 +52,7 @@ input[type="text"]:not(.browser-default):focus:not([readonly]) + label {
 }
 .error {
   padding: 1rem !important;
-  color: white;
+  color: #fff;
   margin-top: 3rem;
   text-align: center;
   text-emphasis: left;
@@ -63,7 +60,7 @@ input[type="text"]:not(.browser-default):focus:not([readonly]) + label {
 .card-panel {
   background-color: transparent !important;
   box-shadow: none;
-  background-color: white !important;
+  background-color: #fff !important;
   opacity: 0.7;
   border-radius: 50px;
   display: flex;
@@ -78,23 +75,22 @@ input[type="text"]:not(.browser-default):focus:not([readonly]) + label {
 .card-panel p {
   text-align: center;
   font-size: 1.4rem;
-  color:#000;
+  color: #000;
   margin: 0.5em;
 }
 .temperatura {
   font-size: 2rem !important;
- 
 }
 .temperatura span {
   font-size: 1rem !important;
   vertical-align: super;
 }
 
-span{
+span {
   font-size: 1rem !important;
 }
 
-.temperatura-icono{
+.temperatura-icono {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
